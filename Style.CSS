@@ -1,3 +1,37 @@
+body{
+  background-color: white;
+}
+
+.main-nav{
+  width: 100px
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main-nav a{
+  text-decoration: none;
+}
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  background-color: Gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.aside{
+  display: block;
+  background-color: red;
+}
+
+
+
 img {
   width: 100%;
 }
