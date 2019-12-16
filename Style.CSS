@@ -1,6 +1,5 @@
 body{
   width: 90vw;
-  height: 200vh;
 padding-top: 50px;
 padding-right: 30px;
 padding-bottom: 50px;
@@ -22,7 +21,7 @@ nav ul{
 
 nav li{
   text-align: center;
-  font-size: 24px;
+  font-size: 45px;
   padding: 16px 18px;
   text-decoration: none;
   border: 2px solid gray;
@@ -111,6 +110,11 @@ td, th {
 figure{
 width: 75%;
 }
+@media only screen and (max-width: 1073px){
+nav li{
+  font-size: 35px;
+}
+}
 
 @media only screen and (max-width: 800px) {
 body{
@@ -135,8 +139,14 @@ body{
     overflow: hidden;
     background-color: #FFC400;
     }
+    p{margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   body{
     width: 80%;
   }
